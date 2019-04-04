@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>JnJWInv</title>
+    <title>JnJWRInv</title>
     <style>
       html {
         box-sizing: border-box;
@@ -103,7 +103,7 @@
   <script>
   //turn off unity's annoying alert() dialog.
   UnityLoader.Error.handler = function(){}
-  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/InviteWebGL3.json", {onProgress: UnityProgress});
+  var gameInstance = UnityLoader.instantiate("gameContainer", "Build/RecepInviteWebGL_1.json", {onProgress: UnityProgress});
   function UnityProgress(gameInstance, progress) {
     if (!gameInstance.Module) {
       return;
